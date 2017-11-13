@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>HAW Living Healthy</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	</head>
+
+	<body data-gr-c-loaded="true">
+		<div class="container">
+			<div class="float-left col-md-3">
+				<img src="./imgs/logo.jpg" id="ph" class="rounded float-left img-thumbnail img-fluid" alt="Responsive image" width="68">
+				<h1 class=" text-muted">H-A-W</h1> 
+				<text class="text-success">Healty food all around you.</text> </br>
+				<small>Est. 2017</small>
+			</div>
+			<header class="masthead">
+			<nav class="navbar navbar-expand-md navbar-dark bg-success mb-5 rounded" style="height: 100px">
+					<button class="navbar-toggler" type="button" data-toggle ="collapse" data-target="#mainNav" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="mainNav">
+						<ul class="navbar-nav text-md-center nav-justified w-100"> 
+							<li class="nav-item active" id="mhome"><a class="nav-link" href="#ph" > Home </a></li>
+							<li class="nav-item" id="mdelivery"><a class="nav-link" href="#ph"> Delivery </a></li>
+							<li class="nav-item" id="mcommunity"><a class="nav-link" href="#ph"> Community </a></li>
+							<li class="nav-item" id="mrest"><a class="nav-link" href="#ph"> Restaurants </a></li>
+							<li class="nav-item" id="myn"><a class="nav-link" href="#ph"> Your Nutritionist </a></li>
+							<li class="nav-item" id="mhome"><a class="nav-link" href="index.html" > Logout </a></li>
+						</ul>	
+					</div>
+			</nav>
+			</header>	
+			<hr class="border border-danger">
+			<div class="container nothidden" id="homesection">
+				<div class="row text-center" id="home">
+					<div class="col-sm">
+						<h1 class="display-3 text-center" id="weluser"> </h1>
+						<text class="text-dark"> This week has been good. Congratulations!</text> <br>
+					</div>
+					<div class="col-sm bg-success rounded text-white">
+						<h1 class="display-3 heading"> Physical activity </h1>
+						<h1 class="display-4" id="mcal"></h1>
+					</div>
+				</div><br>
+				<div class="row">
+					<div class="col-sm">	
+						<table id="infocliente" class="table"><!--PRUEBA VISTA-->
+							<tr>
+								<th scope="row">kCal</th>
+								<td id="calrs">5000kC</td>
+							</tr>
+							<tr>
+								<th scope="row">Current Weight</th>
+								<td id="peso">50 kg</td>
+							</tr>
+							<tr>
+								<th scope="row">Goal</th>
+								<td id="dpeso">45 kg</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+			<div class="container hidden text-center" id="deliverysection">
+				<h1 class="display-3 float-left"> Delivery</h1>
+				<img src="./imgs/location.jpg" width="500" class="rounded border border-success"><br><br>
+				<button class="btn btn-success display-3" id="bmf"> Bring me FOOD! </button><br><br>
+			</div>
+			<div class="container hidden" id="communitysection">
+				<h1 class="display-1" > Community</h1>
+				<h1 class="display-3 text-center"> Friends</h1>
+				<div class="alert alert-info display-4"> Roman Perez</div>
+			</div>
+			<div class="container hidden text-center" id="restaurantssection">
+				<h1 class="display-3 float-left"> Restaurants</h1>
+				<img src="./imgs/gmps.jpg" width="500" class="rounded border border-success"><br><br>
+				<button class="btn btn-success display-3" id="bgmps"> Take me there! </button><br><br>
+			</div>
+			<div class="container hidden" id="ynsection">
+				<h1 class="display-3"> Your Nutritionist</h1>
+				<div class="border border-success" style="width: 1080px; height: 400px; padding: 80px" id="convn">
+					
+				</div>
+				<div class="alert alert-success">
+					<label class="float-left display-4 col-md-3">Message:</label> <br>
+					<textarea style="width: 400px; height: 150px" id="mensajen"> </textarea>
+					<button class="btn btn-success" id="sndmsg"> Send</button>
+				</div>
+
+			</div>
+			<hr class="border border-danger"><br>	
+		</div>
+		
+	</body><div style="padding-bottom: 50px"></div><br>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./js/jquery.js"></script>
+    <script type="text/javascript" src="./js/home.js"></script>
+	<footer class="footer bg-dark text-white text-center mh-200" style="height: 120px">
+		<text>H A W Registered Mark. Since 2017. Monterrey, Nuevo Leon, México.</text>
+		<p> <img src="./imgs/fb.png" width="20"> Facebook/HAWMty <img src="./imgs/tw.png" width="20"> Twitter/HAWMty</p>
+		<p> <img src="./imgs/insta.png" width="20"> Instagram/HAWMty </p>
+	</footer>
+</html>
